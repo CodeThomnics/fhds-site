@@ -1,0 +1,7 @@
+# Block Baidu (Chinese search engine)
+User-agent: Baiduspider
+Disallow: /
+
+# Block Yandex (Russian search engine)
+User-agent: Yandex
+Disallow: /
