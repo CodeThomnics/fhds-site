@@ -8,7 +8,7 @@
 		"preview": "vite preview",
 		"format": "prettier --write .",
 		"lint": "prettier --check . && eslint .",
-		"postbuild": "pnpm svelte-sitemap --domain https://fhds.nl"
+		"postbuild": "npx svelte-sitemap --domain https://fhds.nl"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.4",
