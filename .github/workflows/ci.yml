@@ -20,10 +20,10 @@ jobs:
         with:
           node-version: '20'
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
       
       - name: Run lint
-        run: pnpm lint
+        run: npm lint
 
       - name: Run build
-        run: pnpm build
+        run: npm build
