@@ -6,7 +6,7 @@
 <div>
 	<button
 		onclick={toggle}
-		class="block w-full rounded-md px-3 py-2 text-left text-base font-medium text-schakel-black hover:text-primary-500 focus:outline-none"
+		class="block w-full rounded-md px-3 py-2 text-left text-base font-medium text-schakel-black hover:text-primary-500 focus:outline-hidden"
 	>
 		{title}
 	</button>

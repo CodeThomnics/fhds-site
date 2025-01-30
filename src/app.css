@@ -1,3 +1,74 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --color-primary-100: #fce3cf;
+  --color-primary-200: #f8c79f;
+  --color-primary-300: #f5aa6e;
+  --color-primary-400: #f18e3e;
+  --color-primary-500: #ee720e;
+  --color-primary-600: #be5b0b;
+  --color-primary-700: #8f4408;
+  --color-primary-800: #5f2e06;
+  --color-primary-900: #301703;
+
+  --color-secondary-100: #e6e6e6;
+  --color-secondary-200: #cdcdcd;
+  --color-secondary-300: #b3b5b5;
+  --color-secondary-400: #9a9c9c;
+  --color-secondary-500: #818383;
+  --color-secondary-600: #676969;
+  --color-secondary-700: #4d4f4f;
+  --color-secondary-800: #343434;
+  --color-secondary-900: #1a1a1a;
+
+  --color-accent-100: #eae2d5;
+  --color-accent-200: #d5c6ab;
+  --color-accent-300: #bfa982;
+  --color-accent-400: #aa8d58;
+  --color-accent-500: #95702e;
+  --color-accent-600: #775a25;
+  --color-accent-700: #59431c;
+  --color-accent-800: #3c2d12;
+  --color-accent-900: #1e1609;
+
+  --color-schakel-black: #1d1d1b;
+
+  --animate-flip-in-x: flip-in-x 1s ease;
+
+  @keyframes flip-in-x {
+    from {
+      transform: perspective(400px) rotate3d(1, 0, 0, -90deg);
+      animation-timing-function: ease-in;
+    }
+    40% {
+      transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    }
+    60% {
+      transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    }
+    80% {
+      transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+    to {
+      transform: perspective(400px);
+    }
+  }
+}
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}

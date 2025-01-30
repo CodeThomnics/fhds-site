@@ -102,7 +102,7 @@
 			>
 				<button
 					type="button"
-					class="inline-flex items-center justify-center rounded-md bg-white p-2 text-primary-500 hover:bg-primary-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+					class="inline-flex items-center justify-center rounded-md bg-white p-2 text-primary-500 hover:bg-primary-500 hover:text-white focus:outline-hidden focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
 				>
 					<span class="sr-only">Open main menu</span>
 					<svg

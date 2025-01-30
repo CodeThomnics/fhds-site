@@ -83,7 +83,7 @@
 	</div>
 </div>
 <div class="px-20 py-10 intersect-once motion-safe:intersect:motion-preset-slide-up">
-	<h2 class="mb-8 ml-4 text-3xl font-semibold text-schakel-black">Open plekken beschermd wonen</h2>
+	<h2 class="mb-8 ml-4 text-2xl font-semibold text-schakel-black">Open plekken beschermd wonen</h2>
 	{#if data.places.length === 0}
 		<p class="text-lg text-red-500">Geen plekken beschikbaar</p>
 	{:else}

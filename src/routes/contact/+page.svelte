@@ -11,7 +11,7 @@
 />
 
 <div class="container mx-auto p-6">
-    <h1 class="md:text-4xl text-3xl font-bold mb-6 text-center">Geïnteresseerd in onze dienstverlening?</h1>
+    <h1 class="md:text-4xl text-2xl font-bold mb-6 text-center">Geïnteresseerd in onze dienstverlening?</h1>
     <div class="bg-white shadow-md rounded-lg p-6 mb-6">
         <h2 class="text-2xl font-bold mb-4">Neem contact met ons op</h2>
         <div class="mb-4">

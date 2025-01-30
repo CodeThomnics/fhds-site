@@ -15,15 +15,15 @@
 		<p class="my-2 text-gray-700">{shortDescription}</p>
 		<a
 			href="/vacatures/{slug}"
-			class="inline-block rounded bg-primary-500 px-4 py-2 text-white hover:bg-primary-700"
+			class="inline-block rounded-sm bg-primary-500 px-4 py-2 text-white hover:bg-primary-700"
 			data-sveltekit-preload-data>Solliciteer</a
 		>
 	</div>
 {/snippet}
 
 <div class="container mx-auto p-6">
-	<h1 class="mb-6 text-center text-3xl font-bold md:text-4xl">Vacatures</h1>
-	<h2 class="text-center text-2xl md:text-3xl">Werken bij De Schakel Fasehuizen</h2>
+	<h1 class="mb-6 text-center text-2xl font-bold md:text-4xl">Vacatures</h1>
+	<h2 class="text-center text-xl md:text-2xl">Werken bij De Schakel Fasehuizen</h2>
 	<div class="mb-6">
 		{#if data.vacancies.length === 0}
 			<p class="text-center">Op dit moment hebben wij geen vacatures.</p>
