@@ -21,7 +21,7 @@
 		leren en staan we nooit alleen.
 	</p>
 	<p class="font-semibold text-center mt-4 uppercase">“Meedoen doen wij samen!”</p>
-	<div class="max-full grid grid-cols-1 md:gap-8 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 mx-8 md:mx-8">
+	<div class="max-full grid grid-cols-1 md:gap-8 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 mx-8 md:mx-8 place-items-center">
 		{#each data.colleagues as colleague}
 			<ColleagueCard firstname={colleague.fields.firstname} roles={colleague.fields.role} url="https:{colleague.fields.image.fields.file.url}"/>
 		{/each}
