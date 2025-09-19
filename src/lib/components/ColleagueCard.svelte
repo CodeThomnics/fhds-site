@@ -1,7 +1,7 @@
 <script>
     let { firstname, roles, url } = $props();
 </script>
-<div class="w-62 my-6 flex flex-col rounded-lg border border-slate-200 bg-white shadow-xs intersect-once intersect:motion-safe:motion-preset-slide-up">
+<div class="w-64 my-6 flex flex-col rounded-lg border border-slate-200 bg-white shadow-xs intersect-once intersect:motion-safe:motion-preset-slide-up">
     <div class="m-2.5 flex h-80 items-center justify-center overflow-hidden rounded-md">
         <img
             class="h-full w-full object-cover"
